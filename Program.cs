@@ -13,3 +13,16 @@ int a = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите число в");
 int b = int.Parse(Console.ReadLine());
 Console.WriteLine(a + b);
+
+if(a > b)
+{
+    Console.WriteLine("Число а больше числа b");
+}
+else if(a < b)
+{
+    Console.WriteLine("Число b больше числа a");
+}
+else
+{
+    Console.WriteLine("Число а равно числу в");
+}
