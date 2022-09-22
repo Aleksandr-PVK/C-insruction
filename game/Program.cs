@@ -6,11 +6,10 @@ while (attempt > 0)
 {
     Console.WriteLine("Введиете число от 1 до 10");
     int user_number = int.Parse(Console.ReadLine());
-    Console.WriteLine(user_number);
     if(user_number > secret_number)
     {
         Console.WriteLine("Секретное число меньше");
-        attempt--;
+        attempt--;// attempt = attempt - 1
     }
     else if(user_number < secret_number)
     {
