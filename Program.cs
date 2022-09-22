@@ -26,3 +26,4 @@ else
 {
     Console.WriteLine("Число а равно числу в");
 }
+
